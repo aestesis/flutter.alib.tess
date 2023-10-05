@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = "flutter.alib.tess"
-    s.version          = "1.0.0"
+    s.version          = "1.0.1"
     s.summary          = "libtess cocoa pod"
     s.description      = <<-DESC
     libtess cocoa pod framework
                          DESC
     s.homepage         = "https://github.com/aestesis/flutter.alib.tess"
-    s.license          = 'MIT'
+    s.license          = "MIT"
     s.author           = { "aestesis" => "renan@aestesis.org" }
     s.source           = { :git => "https://github.com/aestesis/flutter.alib.tess.git", :tag => s.version.to_s }
   
@@ -19,4 +19,7 @@ Pod::Spec.new do |s|
 
     s.ios.framework = "tessIOS"
     s.osx.framework = "tessOSX"
+
+    s.ios.source_files = "shared/**/*.{h,m,mm,c,cpp}", "tessIOS/**/*.{h,m,mm,c,cpp}"
+    s.osx.source_files = "shared/**/*.{h,m,mm,c,cpp}", "tessOSX/**/*.{h,m,mm,c,cpp}"
   end
