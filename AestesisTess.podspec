@@ -17,7 +17,7 @@ def self.relative_file_paths(build_phase)
 end
 
 Pod::Spec.new do |s|
-  s.name             = "flutter.alib.tess"
+  s.name             = "AestesisTess"
   s.version          = "1.0.15"
   s.summary          = "libtess cocoa pod"
   s.description      = <<-DESC
