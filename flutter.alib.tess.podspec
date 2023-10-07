@@ -18,7 +18,7 @@ end
 
 Pod::Spec.new do |s|
   s.name             = "flutter.alib.tess"
-  s.version          = "1.0.2"
+  s.version          = "1.0.4"
   s.summary          = "libtess cocoa pod"
   s.description      = <<-DESC
   libtess cocoa pod framework
@@ -35,10 +35,7 @@ Pod::Spec.new do |s|
   s.platform = :osx, '11.0'
   s.platform = :ios, '12.0'
 
-  s.ios.framework = "tessIOS"
-  s.osx.framework = "tessOSX"
-
-  headers = ['glu/include/GL/glext.h','glu/src/libtess/priorityq-heap.c']
+  headers = ['glu/include/GL/glext.h']
   headersIOS = (self.relative_file_paths targetIOS.headers_build_phase) 
   headersOSX = (self.relative_file_paths targetOSX.headers_build_phase) 
   s.ios.source_files = (self.relative_file_paths targetIOS.source_build_phase) + headersIOS + headers

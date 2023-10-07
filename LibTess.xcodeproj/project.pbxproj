@@ -111,7 +111,6 @@
 		063C127C1CAE960400393021 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mesh.h; path = glu/src/libtess/mesh.h; sourceTree = "<group>"; };
 		063C127D1CAE960400393021 /* normal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = normal.c; path = glu/src/libtess/normal.c; sourceTree = "<group>"; };
 		063C127E1CAE960400393021 /* normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = normal.h; path = glu/src/libtess/normal.h; sourceTree = "<group>"; };
-		063C127F1CAE960400393021 /* priorityq-heap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "priorityq-heap.c"; path = "glu/src/libtess/priorityq-heap.c"; sourceTree = "<group>"; };
 		063C12801CAE960400393021 /* priorityq-heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "priorityq-heap.h"; path = "glu/src/libtess/priorityq-heap.h"; sourceTree = "<group>"; };
 		063C12811CAE960400393021 /* priorityq-sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "priorityq-sort.h"; path = "glu/src/libtess/priorityq-sort.h"; sourceTree = "<group>"; };
 		063C12821CAE960400393021 /* priorityq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = priorityq.c; path = glu/src/libtess/priorityq.c; sourceTree = "<group>"; };
@@ -229,7 +228,6 @@
 				063C127C1CAE960400393021 /* mesh.h */,
 				063C127D1CAE960400393021 /* normal.c */,
 				063C127E1CAE960400393021 /* normal.h */,
-				063C127F1CAE960400393021 /* priorityq-heap.c */,
 				063C12801CAE960400393021 /* priorityq-heap.h */,
 				063C12811CAE960400393021 /* priorityq-sort.h */,
 				063C12821CAE960400393021 /* priorityq.c */,
