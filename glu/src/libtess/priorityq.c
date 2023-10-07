@@ -40,7 +40,7 @@
 
 /* Include all the code for the regular heap-based queue here. */
 
-#include "priorityq-heap.c"
+// #include "priorityq-heap.c"
 
 /* Now redefine all the function names to map to their "Sort" versions. */
 
