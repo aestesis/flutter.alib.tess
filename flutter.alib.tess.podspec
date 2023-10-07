@@ -18,7 +18,7 @@ end
 
 Pod::Spec.new do |s|
   s.name             = "flutter.alib.tess"
-  s.version          = "1.0.5"
+  s.version          = "1.0.6"
   s.summary          = "libtess cocoa pod"
   s.description      = <<-DESC
   libtess cocoa pod framework
