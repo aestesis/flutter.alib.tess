@@ -45,18 +45,16 @@
 #define FALSE 0
 #endif
 
-static GLUvertex *allocVertex();
-static GLUface *allocFace();
-
-static GLUvertex *allocVertex()
+static GLUvertex *allocVertex(void)
 {
    return (GLUvertex *)memAlloc( sizeof( GLUvertex ));
 }
 
-static GLUface *allocFace()
+static GLUface *allocFace(void)
 {
    return (GLUface *)memAlloc( sizeof( GLUface ));
 }
+
 
 /************************ Utility Routines ************************/
 
@@ -799,3 +797,4 @@ void __gl_meshCheckMesh( GLUmesh *mesh )
 }
 
 #endif
+
