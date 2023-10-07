@@ -34,7 +34,7 @@
 
 #include <stddef.h>
 #include <assert.h>
-#include "priorityq-heap.h"
+#include "../libtess/priorityq-heap.h"
 #include "memalloc.h"
 #include <limits.h>
 
