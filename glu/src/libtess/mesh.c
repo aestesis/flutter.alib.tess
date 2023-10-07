@@ -45,6 +45,9 @@
 #define FALSE 0
 #endif
 
+static GLUvertex *allocVertex();
+static GLUface *allocFace();
+
 static GLUvertex *allocVertex()
 {
    return (GLUvertex *)memAlloc( sizeof( GLUvertex ));
