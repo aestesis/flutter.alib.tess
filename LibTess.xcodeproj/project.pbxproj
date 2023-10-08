@@ -88,6 +88,12 @@
 		063C12DD1CAE965900393021 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D91CAE965400393021 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		063C12DE1CAE965A00393021 /* export.c in Sources */ = {isa = PBXBuildFile; fileRef = 063C12D81CAE965400393021 /* export.c */; };
 		063C12DF1CAE965A00393021 /* export.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D91CAE965400393021 /* export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066A1BDA2AD23616009AF72D /* gluos.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D61CAE963500393021 /* gluos.h */; };
+		066A1BDB2AD2363D009AF72D /* glu.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D31CAE962700393021 /* glu.h */; };
+		066A1BDC2AD23641009AF72D /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D21CAE962700393021 /* gl.h */; };
+		066A1BDD2AD23661009AF72D /* gluos.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D61CAE963500393021 /* gluos.h */; };
+		066A1BDE2AD23665009AF72D /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D21CAE962700393021 /* gl.h */; };
+		066A1BDF2AD23668009AF72D /* glu.h in Headers */ = {isa = PBXBuildFile; fileRef = 063C12D31CAE962700393021 /* glu.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -286,13 +292,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066A1BDE2AD23665009AF72D /* gl.h in Headers */,
 				063C12C31CAE961200393021 /* tess.h in Headers */,
 				063C12AE1CAE960D00393021 /* normal.h in Headers */,
+				066A1BDF2AD23668009AF72D /* glu.h in Headers */,
 				063C12AA1CAE960D00393021 /* memalloc.h in Headers */,
 				063C12A81CAE960D00393021 /* geom.h in Headers */,
 				063C12A41CAE960D00393021 /* dict-list.h in Headers */,
 				063C12BA1CAE961200393021 /* priorityq-heap.h in Headers */,
 				063C12C51CAE961200393021 /* tessmono.h in Headers */,
+				066A1BDD2AD23661009AF72D /* gluos.h in Headers */,
 				063C12DD1CAE965900393021 /* export.h in Headers */,
 				063C12BF1CAE961200393021 /* render.h in Headers */,
 				063C12BB1CAE961200393021 /* priorityq-sort.h in Headers */,
@@ -311,10 +320,13 @@
 				063C12CF1CAE961300393021 /* tess.h in Headers */,
 				063C12B91CAE960E00393021 /* normal.h in Headers */,
 				063C12B51CAE960E00393021 /* memalloc.h in Headers */,
+				066A1BDC2AD23641009AF72D /* gl.h in Headers */,
 				063C12B31CAE960E00393021 /* geom.h in Headers */,
 				063C12AF1CAE960E00393021 /* dict-list.h in Headers */,
 				063C12C61CAE961300393021 /* priorityq-heap.h in Headers */,
+				066A1BDB2AD2363D009AF72D /* glu.h in Headers */,
 				063C12D11CAE961300393021 /* tessmono.h in Headers */,
+				066A1BDA2AD23616009AF72D /* gluos.h in Headers */,
 				063C12DF1CAE965A00393021 /* export.h in Headers */,
 				063C12CB1CAE961300393021 /* render.h in Headers */,
 				063C12C71CAE961300393021 /* priorityq-sort.h in Headers */,

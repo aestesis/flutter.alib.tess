@@ -32,8 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "12.0"
   s.requires_arc = true
 
-  s.platform = :osx, '11.0'
-  s.platform = :ios, '12.0'
+  s.platform = :osx, '11.0', :ios, '12.0'
 
   headers = ['glu/include/GL/glext.h', 'glu/src/libtess.exclude/priorityq-heap.c.h']
   headersIOS = (self.relative_file_paths targetIOS.headers_build_phase) 
@@ -41,4 +40,6 @@ Pod::Spec.new do |s|
   s.ios.source_files = (self.relative_file_paths targetIOS.source_build_phase) + headersIOS + headers
   s.osx.source_files = (self.relative_file_paths targetOSX.source_build_phase) + headersOSX + headers
   s.public_header_files = ['shared/export.h']
+  s.swift_version = '5.0'
+  s.ios.vendored_frameworks = ['AestesisTess.framework']
 end
