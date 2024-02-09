@@ -20,7 +20,7 @@ typedef struct  {
     double x; // SIMD3 aligned/packed as SIMD4
     double y;
     double z;
-    double w:
+    double w;
     double u; // SIMD2 aligned/packed as SIMD2
     double v;
 } TessVertex;
