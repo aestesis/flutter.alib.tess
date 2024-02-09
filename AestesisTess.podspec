@@ -18,7 +18,7 @@ end
 
 Pod::Spec.new do |s|
   s.name             = "AestesisTess"
-  s.version          = "1.0.20"
+  s.version          = "1.0.21"
   s.summary          = "libtess cocoa pod"
   s.description      = <<-DESC
   libtess cocoa pod framework
