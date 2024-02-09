@@ -18,7 +18,7 @@ end
 
 Pod::Spec.new do |s|
   s.name             = "AestesisTess"
-  s.version          = "1.0.22"
+  s.version          = "1.0.24"
   s.summary          = "libtess cocoa pod"
   s.description      = <<-DESC
   libtess cocoa pod framework
@@ -28,11 +28,9 @@ Pod::Spec.new do |s|
   s.author           = { "aestesis" => "renan@aestesis.org" }
   s.source           = { :git => "https://github.com/aestesis/flutter.alib.tess.git", :tag => "v" + s.version.to_s }
 
-  s.osx.deployment_target = "11.0"
+  s.osx.deployment_target = "12.0"
   s.ios.deployment_target = "12.0"
   s.requires_arc = true
-
-#  s.platform = :ios, '12.0', :osx, '11.0'
 
   headers = ['glu/include/GL/glext.h', 'glu/src/libtess.exclude/priorityq-heap.c.h']
   headersIOS = (self.relative_file_paths targetIOS.headers_build_phase) 
